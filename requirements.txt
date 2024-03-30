@@ -1,0 +1,9 @@
+beautifulsoup4
+numpy
+python_dateutil
+python_whois
+Requests
+tensorflow-cpu==2.15.0
+fastapi
+pydantic
+uvicorn
