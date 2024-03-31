@@ -12,7 +12,7 @@ origins = [
     "https://localhost.tiangolo.com",
     "http://localhost",
     "http://localhost:3000",
-    "https://adityat-19.github.io/PhishSafe-web"
+    "https://adityat-19.github.io"
 ]
 
 app.add_middleware(
