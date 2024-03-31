@@ -1,7 +1,6 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
 from app.model import predict
-#add cors
 from fastapi.middleware.cors import CORSMiddleware
 
 
@@ -12,7 +11,7 @@ origins = [
     "https://localhost.tiangolo.com",
     "http://localhost",
     "http://localhost:3000",
-    "https://adityat-19.github.io/PhishSafe-web"
+    "https://adityat-19.github.io"
 ]
 
 app.add_middleware(
